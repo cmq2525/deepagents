@@ -9,6 +9,7 @@ Agents can increasingly tackle long-horizon tasks, [with agent task length doubl
 - **[Documentation](https://docs.langchain.com/oss/python/deepagents/overview)** - Full overview and API reference
 - **[Quickstarts Repo](https://github.com/langchain-ai/deepagents-quickstarts)** - Examples and use-cases
 - **[CLI](libs/deepagents-cli/)** - Interactive command-line interface with skills, memory, and HITL workflows
+- **[Universal Agent Example](examples/)** - 通用智能体示例：支持研究报告、数据分析和渐进式工具加载 / Universal agent example with research, data analysis, and progressive tool loading
 
 ## 🚀 Quickstart
 
