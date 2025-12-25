@@ -6,9 +6,13 @@ Demonstrates how to use the universal agent to complete real-world tasks
 """
 
 import os
+import sys
 from pathlib import Path
 
-from examples.universal_agent import create_universal_agent
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
+
+from universal_agent import create_universal_agent
 
 
 def demo_basic_research():

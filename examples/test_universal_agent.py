@@ -6,11 +6,10 @@ from pathlib import Path
 import pytest
 
 # Import will be adjusted based on the actual module structure
-# For now, using relative import assuming tests run from examples directory
 import sys
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent))
 
-from examples.universal_agent import create_universal_agent
+from universal_agent import create_universal_agent
 
 
 class TestUniversalAgent:
